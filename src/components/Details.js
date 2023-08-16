@@ -12,7 +12,7 @@ const Details = () => {
     return <div className={styles.Notfound}>Movie not found</div>;
   }
 
-  const { title, poster_path, overview, vote_average, release_date, runtime, credits } = selectedMovie;
+  const { title, poster_path, overview, vote_average, release_date } = selectedMovie;
   const cleanedDescription = overview.trim().replace(/\s+/g, ' ');
   //const cast = credits.cast;
   //const director = credits.crew.find(member => member.job === 'Director');
