@@ -1,0 +1,12 @@
+.app {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top: 20px;
+  }
+    

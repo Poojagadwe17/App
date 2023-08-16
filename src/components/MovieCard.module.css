@@ -1,0 +1,53 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 8px;
+  width: calc(20% - 16px);
+  height: 355px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.poster {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  height: 250px;
+}
+
+.poster img {
+  width: 100%;
+  height: auto;
+}
+
+.detailsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 5px;
+  align-items: flex-start;
+}
+
+.titleContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.title {
+  font-size: 0.8rem;
+  margin: 5px 0;
+}
+
+.rating {
+  color: #9B9B9B;
+  font-size: 0.8rem;
+}
+
+.description {
+  font-size: 0.8rem;
+  margin: 5px 0;
+}
